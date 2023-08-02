@@ -1,11 +1,11 @@
 // Cupcake beats cookie, cookie beats candy and candy beats cupcake
 let choice = prompt("Pick from candy, cookie, cupcake")
-document.getElementById("img1").setAttribute("src","../images/"+ choice + ".png")
+document.getElementById("img1").setAttribute("src","images/"+ choice + ".png")
 
 let game = ["candy","cookie","cupcake"]
 let random = Math.floor(Math.random()*3);
 
-document.getElementById("img2").setAttribute("src","../images/"+ game[random] + ".png")
+document.getElementById("img2").setAttribute("src","images/"+ game[random] + ".png")
 
 if(choice == game[random]){
     document.querySelector("h1").innerHTML="It's a draw"
