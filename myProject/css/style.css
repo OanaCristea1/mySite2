@@ -1,0 +1,71 @@
+body{
+    margin:0;
+    text-align: center;
+    background-color: rgb(242, 231, 242);
+    background-image: url("https://cdn-icons-png.flaticon.com/128/2871/2871842.png"), url(https://cdn-icons-png.flaticon.com/128/2871/2871842.png);
+    background-repeat: repeat-y, repeat-y;
+    background-position: right bottom, left bottom;
+    background-size: 100px;
+}
+.first-part{
+    text-align: center;
+    position: relative;
+}
+.nav-link-left{
+    text-align: left;
+}
+.nav-link-mid{
+    text-align: center;
+    margin-left: 600px;
+    margin-right: 600px;
+}
+.nav-link-right{
+    text-align: right;
+}
+.left-img{
+    position: absolute;
+    top: 20px;
+    left: 500px;
+}
+.right-img{
+    position: absolute;
+    top: 50px;
+    right: 500px;
+}
+.first-part>h1{
+    margin:0;
+    color: rgb(175, 139, 92);
+    padding-top: 200px;
+}
+.second-part>h2{
+    margin: 0;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.wrap-left-div, .wrap-right-div{
+    background-color: ivory;
+    text-align: justify;
+    padding: 0 40px;
+}
+.cupcake-img1{
+    float: left;
+    height: 130px;
+}
+.cupcake-img2{
+    float: right;
+    height:140px;
+}
+.second-part{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 100px;
+}
+.third-part{
+    background-color: rgb(117, 70, 112);
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: end;
+}
